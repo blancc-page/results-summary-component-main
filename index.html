@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- css -->
+  <link rel="stylesheet" href="/styles/styles.css">
+
+
+  <title>Frontend Mentor | Results summary component</title>
+
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; z-index: 1; display: block;} 
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <card class="container-left">
+    <card class="left">
+      <p class="heading-left">Your Result</p>
+      <div class="score-circle">
+        <p class="score-num">76</p>
+        <p class="score-total">of 100</p>
+      </div>
+      <p class="score-desc">Great</p>
+      <p class="score-stat">You scored higher than 65% of the people who have taken these tests.</p>
+    </card>
+  </card>
+  <card class="container-right">
+    <card class="right">
+      <p class="heading-right">Summary</p>
+      <module class="reaction">
+        <p class="module-text">
+          <img src="/assets/images/icon-reaction.svg" alt="">
+          Reaction
+        </p>
+        <p class="module-score"><span class="score-num">80</span> / 100</p>
+      </module>
+      <module class="memory">
+        <p class="module-text">
+          <img src="/assets/images/icon-memory.svg" alt="">
+          Memory
+        </p>
+        <p class="module-score"><span class="score-num">92</span> / 100</p>
+      </module>
+      <module class="verbal">
+        <p class="module-text">
+          <img src="/assets/images/icon-verbal.svg" alt="">
+          Verbal
+        </p>
+        <p class="module-score"><span class="score-num">61</span> / 100</p>
+      </module>
+      <module class="visual">
+        <p class="module-text">
+          <img src="/assets/images/icon-visual.svg" alt="">
+          Visual
+        </p>
+        <p class="module-score"><span class="score-num">73</span> / 100</p>
+      </module>
+      <button class="card-button">Continue</button>
+    </card>
+  </card>
+ 
+  <!-- <div class="attribution">
+    Coded by <a href="https://moses-muta.netlify.app">Moses Muta</a>.
+  </div> -->
+</body>
+</html>

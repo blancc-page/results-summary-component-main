@@ -71,7 +71,13 @@ card.left{
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-color: var(--light-royal-blue);
+    --mid-point: color-mix(in oklab, var(--light-slate-blue), var(--light-royal-blue));
+    background: linear-gradient(
+    to bottom, 
+    var(--light-royal-blue), 
+    var(--mid-point),
+    var(--light-slate-blue)
+  );
 }
 
 .left .score-num{

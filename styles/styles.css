@@ -185,6 +185,7 @@ button:hover{
     html, body {
       flex-direction: column;
       height: auto;
+      background-color: var(--white);
     }
 
     card{
@@ -192,14 +193,13 @@ button:hover{
     }
 
     card.container-left{
-        display: flex;
-        justify-content: flex-start;
         width: 100dvw;
         transform: translateY(-12px);
         height: auto;
     }
     
     card.container-right{
+        box-shadow: none;
         width: 100dvw;
         transform: translateY(-25px);
         padding: 35px 15px 15px;

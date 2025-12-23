@@ -44,7 +44,7 @@ card.container-left{
     --mid-point: color-mix(in oklab, var(--light-slate-blue), var(--light-royal-blue));
     background: linear-gradient(
     to bottom, 
-    var(--light-slate-blue), 
+    var(--light-royal-blue), 
     var(--mid-point),
     var(--light-royal-blue)
   );
@@ -120,7 +120,7 @@ card.container-right{
 }
 
 module{
-    padding: 5px;
+    padding: 5px 15px;
     margin: 5px;
     display: flex;
     justify-content: space-between;
